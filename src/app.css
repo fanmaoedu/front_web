@@ -15,3 +15,8 @@
   color: aliceblue;
   text-align: center
 }
+
+.mycontent { 
+  padding: '0 50px';
+  margin-top: '5px';
+ }

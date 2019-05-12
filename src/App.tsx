@@ -4,7 +4,7 @@ import {
 } from 'antd';
 import { BrowserRouter,Route} from 'react-router-dom';
 
-import './app.css';
+
 import HeaderComponent from './components/header';
 import HomePageComponent from './components/home';
 import FooterComponet from './components/foot';
@@ -15,7 +15,8 @@ import AutotestPageComponent from './components/courses/autotest';
 import PerformancePageComponent from './components/courses/performance';
 import BigDataComponent from './components/courses/bigdata';
 import ProductPageComponet from './components/courses/product';
-
+import UserComponent from './components/user';
+import './app.css';
 
 
 interface appProps {
@@ -39,7 +40,8 @@ class App extends Component<appProps, appState> {
           <Route path='/autotest' component={AutotestPageComponent} />
           <Route path='/perfotmance' component={PerformancePageComponent} />
           <Route path='/bigdata' component={BigDataComponent} />
-          <Route path='product' component={ProductPageComponet} />
+          <Route path='/product' component={ProductPageComponet} />
+          <Route path='/user' component={UserComponent}/>
           <FooterComponet />
         </Layout>
       </BrowserRouter>
