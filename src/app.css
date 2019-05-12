@@ -1,0 +1,17 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(0,0,0,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.ant-collapse .ant-collapse-item-disabled > .ant-collapse-header, .ant-collapse .ant-collapse-item-disabled > .ant-collapse-header > .arrow {
+  color: white !important;
+  cursor: inherit !important;
+}
+
+.banner_bg{
+  background: url('files/bannerbg.png');
+  color: aliceblue;
+  text-align: center
+}
