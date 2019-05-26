@@ -17,6 +17,8 @@ import BigDataComponent from './components/courses/bigdata';
 import ProductPageComponet from './components/courses/product';
 import UserComponent from './components/user';
 import './app.css';
+import APITestingComponent from './components/courses/apitest';
+import PythonTestComponent from './components/courses/pythontesting';
 
 
 interface appProps {
@@ -41,7 +43,9 @@ class App extends Component<appProps, appState> {
           <Route path='/perfotmance' component={PerformancePageComponent} />
           <Route path='/bigdata' component={BigDataComponent} />
           <Route path='/product' component={ProductPageComponet} />
+          <Route path='/apitesting' component={APITestingComponent} />
           <Route path='/user' component={UserComponent}/>
+          <Route path='/pythontesting' component={PythonTestComponent}/>
           <FooterComponet />
         </Layout>
       </BrowserRouter>
